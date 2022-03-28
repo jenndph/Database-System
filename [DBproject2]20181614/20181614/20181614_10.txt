@@ -1,0 +1,13 @@
+delete from shipment
+delete from receipt_package
+delete from package
+delete from receipt
+delete from recipient
+delete from customer
+
+drop table shipment
+drop table receipt_package
+drop table package
+drop table receipt
+drop table recipient
+drop table customer

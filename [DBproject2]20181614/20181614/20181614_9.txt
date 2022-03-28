@@ -1,0 +1,5 @@
+select package.package_id, receipt.amount, package.type, receipt.payment_type, package.timeliness from customer, receipt, package, receipt_package where customer.name = receipt.name and (customer.phone_number = receipt.phone_number) and customer.name = 
+ and customer.phone_number = 
+ and receipt.year = 
+ and receipt.month = 
+ and receipt.receipt_number = receipt_package.receipt_number and receipt_package.package_id = package.package_id

@@ -1,0 +1,4 @@
+select customer.name, customer.phone_number, customer.address, sum(receipt.amount) from customer, receipt where (customer.name = receipt.name) and (customer.phone_number = receipt.phone_number) and customer.name = 
+ and customer.phone_number = 
+ and receipt.year = 
+ and receipt.month = 

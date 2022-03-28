@@ -1,0 +1,1 @@
+select package.name, package.phone_number from package, receipt_package, shipment where package.package_id = receipt_package.package_id and receipt_package.package_id = shipment.package_id and shipment.place_type = "Truck" and shipment.place_number = "1721" and available = "No"

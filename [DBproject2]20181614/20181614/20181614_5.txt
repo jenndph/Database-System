@@ -1,0 +1,2 @@
+select receipt.name, receipt.phone_number, count(receipt_number) as receipt_count from receipt where receipt.year = 
+ group by receipt.phone_number order by receipt_count desc limit 1
